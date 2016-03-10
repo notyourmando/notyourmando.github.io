@@ -425,3 +425,95 @@ td,
 th {
   padding: 0;
 }
+
+.title {
+  text-align: right;
+  color: blue;
+}
+
+.launch {
+  display: none;
+}
+
+body {
+  background-size: cover;
+  background-image: url(http://il5.picdn.net/shutterstock/videos/252229/thumb/3.jpg);
+}
+
+.rocketTop {
+  width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #71048F;
+  position: relative;
+  left: 50px;
+}
+
+.rocketBody {
+  width: 100px;
+  height: 200px;
+  background: #55036C;
+  position: relative;
+  left: 50px;
+}
+
+.cargoRight{
+  font-size: 150px;
+  font-weight: bold;
+  color: #5D08CD;
+  transform: rotate(180deg);
+  position: relative;
+  z-index: -1;
+  left: 25px;
+}
+
+.cargoLeft{
+  font-size: 150px;
+  font-weight: bold;
+  color: #5D08CD;
+  transform: rotate(180deg);
+  position: relative;
+  z-index: -1;
+  right: 77px;
+  top: -240px;
+}
+
+.rocketBottom {
+  border-bottom: 75px solid #3E024F;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 100px;
+  position: relative;
+}
+
+.rocketBurners {
+      border-style: solid;
+      border-color: transparent transparent red transparent;
+      border-width: 0px 25px 25px 25px;
+      height: 0;
+      width: 70px;
+      position: absolute;
+      left: 40px;
+      margin: 0px 0 50px 0;
+  }
+  .rocketBurners:after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      left: -25px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: red transparent transparent transparent;
+      border-width: 100px 60px 0 60px;
+}
+
+section {
+  color: white;
+}
+
+.problem {
+  color: white;
+}
