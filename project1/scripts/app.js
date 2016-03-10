@@ -3,7 +3,6 @@ function getRandom(){
   return Math.round(Math.random() * 10);
 };
 
-
 var rounds  = 1,
     x       = getRandom(),
     y       = getRandom(),
@@ -24,32 +23,44 @@ $('input[type="submit"]').click(function(evt) {
   } //Resets the value of the answer after a submission has been made.
   $('input[name="answer"]').val('')
 
+  rightAnswer(correct);
+  randomEquation();
+})
+
+function randomEquation() {
+  x = getRandom();
+  y = getRandom();
+  rounds++;
+  $('.problem').text(x + ' + ' + y + ' = ');
+};
+
 //Attach the pieces of the rocketship
-  if (correct === 1) {
+// Game stops at 5 correct answers
+
+function rightAnswer(numberCorrect) {
+  if (numberCorrect === 1) {
     $('.rocketTop').toggle();
   }
-  else if (correct === 2) {
+  else if (numberCorrect === 2) {
     $('.rocketBody').toggle();
   }
-  else if (correct === 3) {
+  else if (numberCorrect === 3) {
     $('.rocketBottom').toggle();
   }
-  else if (correct === 4) {
+  else if (numberCorrect === 4) {
     $('.rocketBurners').toggle();
   }
-
-
-// Game stops at 5 correct answers
-  if (correct >= 5) {
+  else if (numberCorrect >= 5) {
     //call ending function
     $('.alerts').text('Ready for lift-off!')
     $('.launch').toggle();
     return false;
   }
+}
 
-  x = getRandom();
-  y = getRandom();
-  rounds++;
-
-  $('.problem').text(x + ' + ' + y + ' = ');
-});
+///////Rocket Launch
+$('.launchoff').click(function(evt) {
+  $('.rocketship').animate({
+    'marginTop' : '-=800px'
+  })
+})
