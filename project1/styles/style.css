@@ -441,6 +441,22 @@ body {
 }
 
 .rocketTop {
+  display: none;
+}
+
+.rocketBody {
+  display: none;
+}
+
+.rocketBottom {
+  display: none;
+}
+
+.rocketBurners {
+  display: none;
+}
+
+.rocketTop {
   width: 0;
 	height: 0;
 	border-left: 50px solid transparent;

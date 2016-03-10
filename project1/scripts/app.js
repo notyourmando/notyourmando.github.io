@@ -24,10 +24,25 @@ $('input[type="submit"]').click(function(evt) {
   } //Resets the value of the answer after a submission has been made.
   $('input[name="answer"]').val('')
 
+//Attach the pieces of the rocketship
+  if (correct === 1) {
+    $('.rocketTop').toggle();
+  }
+  else if (correct === 2) {
+    $('.rocketBody').toggle();
+  }
+  else if (correct === 3) {
+    $('.rocketBottom').toggle();
+  }
+  else if (correct === 4) {
+    $('.rocketBurners').toggle();
+  }
+
+
 // Game stops at 5 correct answers
   if (correct >= 5) {
     //call ending function
-    $('.alerts').text('Ready for launch!')
+    $('.alerts').text('Ready for lift-off!')
     $('.launch').toggle();
     return false;
   }
