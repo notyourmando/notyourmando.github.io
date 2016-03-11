@@ -53,7 +53,7 @@ function rightAnswer(numberCorrect) {
   }
   else if (numberCorrect >= 5) {
     //call ending function
-    $('.alerts').text('Ready for lift-off!')
+    $('.alerts').text('Ready for lift-off!');
     $('.launch').toggle();
     return false;
   }
