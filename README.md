@@ -1,6 +1,6 @@
 # WDI Project: Game
 
-## Space Kitty
+## [Space Kitty](https://notyourmando.github.io/project1/index.html)
 
 ### Objective:
 - Send Space Kitty into space by correctly answering a set of 5 mathematical equations.<br><br>
@@ -34,7 +34,7 @@
 - In order to make the game a little more interactive, I a made the launch button instead of having the rocket ship take off on its own.
 
 ### Installation Instructions:
-- Clone file down from Github and open in Chrome.
+- Clone file down from Github and open in Chrome.<br><br>
 
 ### Unsolved Problems:
 - When the launch button is pressed, the page should automatically reset.<br><br>
