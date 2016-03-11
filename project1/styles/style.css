@@ -494,7 +494,7 @@ img {
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid #71048F;
+	border-bottom: 100px solid #136DEB;
   position: relative;
   left: 50px;
 }
@@ -530,7 +530,7 @@ img {
 }
 
 .rocketBottom {
-  border-bottom: 75px solid #3E024F;
+  border-bottom: 75px solid #136DEB;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   height: 0;
