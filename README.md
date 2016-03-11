@@ -1,12 +1,13 @@
 # WDI Project: Game
 
-## Space Mathematics
+## Space Kitty
 
 ### Objective:
-- Send a  rocket ship into space by correctly answering a set of 5 mathematical equations.<br><br>
-- For each mathematical equation that is solved correctly, a piece of the rocket ship will be assembled on the screen.<br><br>
+- Send Space Kitty into space by correctly answering a set of 5 mathematical equations.<br><br>
+- For each mathematical equation that is solved correctly, a piece of a rocket ship will be assembled on the screen.<br><br>
 - Once all 5 equations have been answered correctly, the rocket ship will be fully assembled and ready for take off.<br><br>
-- After the rocket ship is complete, the player will hit a "Launch" button in order to send the rocket ship into deep space!<br><br>
+- After the rocket ship is complete, the player will hit a "Launch" button in order to send the rocket ship, and Space Kitty, into deep space!<br><br>
+- Press "replay to start again".
 
 ### PseudoCode:
 - Use HTML/CSS to create the space ship and the rest of the graphics on the page.<br><br>

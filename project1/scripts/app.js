@@ -62,6 +62,6 @@ function rightAnswer(numberCorrect) {
 ///////Rocket Launch
 $('.launchoff').click(function(evt) {
   $('.rocketship').animate({
-    'marginTop' : '-=800px'
-  })
-})
+    marginTop : '-800px',
+  });
+});
