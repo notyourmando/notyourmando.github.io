@@ -19,6 +19,7 @@ $('input[type="submit"]').click(function(evt) {
     correct++
     rightAnswer(correct);
     $('.scoreboard').text('You have answered ' + correct + ' correctly!')
+    $('.alerts').text('')
   } else {
     $('.alerts').text('Nice try, but that answer is not correct. The answer is ' + (x + y))
   } //Resets the value of the answer after a submission has been made.
