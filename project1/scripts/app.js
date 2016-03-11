@@ -17,13 +17,13 @@ $('input[type="submit"]').click(function(evt) {
   if (answer === (x + y)){
     // Add pieces to the rocket
     correct++
+    rightAnswer(correct);
     $('.scoreboard').text('You have answered ' + correct + ' correctly!')
   } else {
     $('.alerts').text('Nice try, but that answer is not correct. The answer is ' + (x + y))
   } //Resets the value of the answer after a submission has been made.
-  $('input[name="answer"]').val('')
+    $('input[name="answer"]').val('')
 
-  rightAnswer(correct);
   randomEquation();
 })
 

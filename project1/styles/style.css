@@ -426,18 +426,46 @@ th {
   padding: 0;
 }
 
+body {
+  background-size: cover;
+  background-image: url(http://il5.picdn.net/shutterstock/videos/252229/thumb/3.jpg);
+}
+
 .title {
   text-align: right;
   color: blue;
 }
 
-.launch {
-  display: none;
+.equation {
+  float: right;
 }
 
-body {
-  background-size: cover;
-  background-image: url(http://il5.picdn.net/shutterstock/videos/252229/thumb/3.jpg);
+.scorecard {
+  text-align: right;
+}
+
+.launchTime {
+  text-align: right;
+}
+
+section {
+  color: blue;
+  font: bold;
+}
+
+.problem {
+  color: white;
+  font: bold;
+}
+
+.launch {
+  display: none;
+  margin-bottom: 0px;
+  float: right;
+}
+
+.sectionButtons{
+  float: right
 }
 
 .rocketTop {
@@ -468,7 +496,7 @@ body {
 
 .rocketBody {
   width: 100px;
-  height: 150px;
+  height: 100px;
   background: #55036C;
   position: relative;
   left: 50px;
@@ -481,7 +509,7 @@ body {
   transform: rotate(180deg);
   position: relative;
   z-index: -1;
-  left: 25px;
+  left: 90px;
 }
 
 .cargoLeft{
@@ -491,7 +519,7 @@ body {
   transform: rotate(180deg);
   position: relative;
   z-index: -1;
-  right: 77px;
+  right: 41px;
   top: -240px;
 }
 
@@ -524,14 +552,4 @@ body {
       border-style: solid;
       border-color: red transparent transparent transparent;
       border-width: 100px 60px 0 60px;
-}
-
-section {
-  color: blue;
-  font: bold;
-}
-
-.problem {
-  color: white;
-  font: bold;
 }
