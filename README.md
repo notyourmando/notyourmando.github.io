@@ -1,5 +1,3 @@
-# WDI Project: Game
-
 ## [Space Kitty](https://notyourmando.github.io/project1/index.html)
 
 ### Objective:
